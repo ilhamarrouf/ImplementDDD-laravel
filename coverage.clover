@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1521208307">
+  <project timestamp="1521208307">
+    <package name="App\Console\Commands">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Console/Commands/AppInstallCommand.php">
+        <class name="App\Console\Commands\AppInstallCommand" namespace="App\Console\Commands">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+        </class>
+        <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="30" type="stmt" count="16"/>
+        <line num="31" type="stmt" count="16"/>
+        <line num="38" type="method" name="handle" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="40" type="stmt" count="16"/>
+        <line num="42" type="stmt" count="16"/>
+        <line num="43" type="stmt" count="16"/>
+        <line num="46" type="stmt" count="16"/>
+        <line num="47" type="stmt" count="16"/>
+        <line num="50" type="stmt" count="16"/>
+        <line num="51" type="stmt" count="16"/>
+        <metrics loc="52" ncloc="32" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <package name="App\Console">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Console/Kernel.php">
+        <class name="App\Console\Kernel" namespace="App\Console">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+        </class>
+        <line num="25" type="method" name="schedule" visibility="protected" complexity="1" crap="1" count="16"/>
+        <line num="29" type="stmt" count="16"/>
+        <line num="36" type="method" name="commands" visibility="protected" complexity="1" crap="1" count="16"/>
+        <line num="38" type="stmt" count="16"/>
+        <line num="40" type="stmt" count="16"/>
+        <line num="41" type="stmt" count="16"/>
+        <metrics loc="42" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+      </file>
+    </package>
+    <package name="App\Domain\News\Criteria">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/News/Criteria/NewsRequestCriteria.php">
+        <class name="App\Domain\News\Criteria\NewsRequestCriteria" namespace="App\Domain\News\Criteria" fullPackage="namespace" package="namespace">
+          <metrics complexity="5" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="8" coveredelements="0"/>
+        </class>
+        <line num="18" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="31" type="method" name="apply" visibility="public" complexity="3" crap="12.00" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="method" name="anonymousFunction:34#141" complexity="1" crap="2.00" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <metrics loc="41" ncloc="28" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="9" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Domain\News\Entities">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/News/Entities/News.php">
+        <class name="App\Domain\News\Entities\News" namespace="App\Domain\News\Entities">
+          <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="1" elements="6" coveredelements="2"/>
+        </class>
+        <line num="39" type="method" name="getRouteKeyName" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="44" type="method" name="creator" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="49" type="method" name="topics" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="51" type="stmt" count="16"/>
+        <metrics loc="53" ncloc="38" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="1" elements="6" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="App\Domain\News\Observers">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/News/Observers/NewsObserver.php">
+        <class name="App\Domain\News\Observers\NewsObserver" namespace="App\Domain\News\Observers">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="9" type="method" name="saving" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="11" type="stmt" count="16"/>
+        <line num="12" type="stmt" count="16"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+    </package>
+    <package name="App\Domain\News\Policies">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/News/Policies/NewsPolicy.php">
+        <class name="App\Domain\News\Policies\NewsPolicy" namespace="App\Domain\News\Policies">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="13" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="18" type="method" name="delete" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <metrics loc="22" ncloc="22" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/News/Repositories/NewsRepository.php">
+      <metrics loc="15" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="App\Domain\News\Repositories">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/News/Repositories/NewsRepositoryEloquent.php">
+        <class name="App\Domain\News\Repositories\NewsRepositoryEloquent" namespace="App\Domain\News\Repositories" fullPackage="namespace" package="namespace">
+          <metrics complexity="4" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="19" coveredelements="0"/>
+        </class>
+        <line num="27" type="method" name="model" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="35" type="method" name="boot" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="method" name="create" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="52" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <metrics loc="61" ncloc="48" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="19" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Domain\News\Requests">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/News/Requests/NewsCreateRequest.php">
+        <class name="App\Domain\News\Requests\NewsCreateRequest" namespace="App\Domain\News\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="21" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/News/Requests/NewsUpdateRequest.php">
+        <class name="App\Domain\News\Requests\NewsUpdateRequest" namespace="App\Domain\News\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="32" ncloc="22" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Domain\News\Resources">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/News/Resources/NewsResource.php">
+        <class name="App\Domain\News\Resources\NewsResource" namespace="App\Domain\News\Resources">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="10" coveredelements="0"/>
+        </class>
+        <line num="17" type="method" name="toArray" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="25" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="10" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Domain\Topic\Entities">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/Topic/Entities/Topic.php">
+        <class name="App\Domain\Topic\Entities\Topic" namespace="App\Domain\Topic\Entities">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+        </class>
+        <line num="28" type="method" name="news" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <metrics loc="32" ncloc="22" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/Topic/Repositories/TopicRepository.php">
+      <metrics loc="15" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="App\Domain\Topic\Repositories">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/Topic/Repositories/TopicRepositoryEloquent.php">
+        <class name="App\Domain\Topic\Repositories\TopicRepositoryEloquent" namespace="App\Domain\Topic\Repositories" fullPackage="namespace" package="namespace">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+        </class>
+        <line num="26" type="method" name="model" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="34" type="method" name="boot" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <metrics loc="38" ncloc="25" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Domain\Topic\Requests">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/Topic/Requests/TopicCreateRequest.php">
+        <class name="App\Domain\Topic\Requests\TopicCreateRequest" namespace="App\Domain\Topic\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/Topic/Requests/TopicUpdateRequest.php">
+        <class name="App\Domain\Topic\Requests\TopicUpdateRequest" namespace="App\Domain\Topic\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="21" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Domain\Topic\Resources">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/Topic/Resources/TopicResource.php">
+        <class name="App\Domain\Topic\Resources\TopicResource" namespace="App\Domain\Topic\Resources">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+        </class>
+        <line num="16" type="method" name="toArray" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <metrics loc="26" ncloc="20" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Domain\User\Entities">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/User/Entities/User.php">
+        <class name="App\Domain\User\Entities\User" namespace="App\Domain\User\Entities">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        </class>
+        <line num="36" type="method" name="news" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <metrics loc="40" ncloc="30" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Domain\User\Observers">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/User/Observers/UserObserver.php">
+        <class name="App\Domain\User\Observers\UserObserver" namespace="App\Domain\User\Observers">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="9" type="method" name="creating" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="11" type="stmt" count="16"/>
+        <line num="12" type="stmt" count="16"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+    </package>
+    <package name="App\Domain\User\Requests">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/User/Requests/LoginRequest.php">
+        <class name="App\Domain\User\Requests\LoginRequest" namespace="App\Domain\User\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="16" type="stmt" count="6"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="27" type="stmt" count="6"/>
+        <metrics loc="31" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/User/Requests/RegisterRequest.php">
+        <class name="App\Domain\User\Requests\RegisterRequest" namespace="App\Domain\User\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="16" type="stmt" count="9"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="27" type="stmt" count="9"/>
+        <metrics loc="32" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <package name="App\Domain\User\Resources">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Domain/User/Resources/UserResource.php">
+        <class name="App\Domain\User\Resources\UserResource" namespace="App\Domain\User\Resources">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="7" coveredelements="7"/>
+        </class>
+        <line num="15" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="18" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <metrics loc="26" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="7" coveredelements="7"/>
+      </file>
+    </package>
+    <package name="App\Exceptions">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Exceptions/Handler.php">
+        <class name="App\Exceptions\Handler" namespace="App\Exceptions">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="37" type="method" name="report" visibility="public" complexity="1" crap="1" count="13"/>
+        <line num="39" type="stmt" count="13"/>
+        <line num="40" type="stmt" count="13"/>
+        <line num="49" type="method" name="render" visibility="public" complexity="1" crap="1" count="13"/>
+        <line num="51" type="stmt" count="13"/>
+        <metrics loc="53" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers\Api">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Controllers/Api/NewsController.php">
+        <class name="App\Http\Controllers\Api\NewsController" namespace="App\Http\Controllers\Api">
+          <metrics complexity="6" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="20" coveredelements="0"/>
+        </class>
+        <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="23" type="method" name="index" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="30" type="method" name="show" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="35" type="method" name="create" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="42" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="51" type="method" name="delete" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <metrics loc="59" ncloc="59" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="20" coveredelements="0"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Controllers/Api/TopicController.php">
+        <class name="App\Http\Controllers\Api\TopicController" namespace="App\Http\Controllers\Api">
+          <metrics complexity="4" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="12" coveredelements="0"/>
+        </class>
+        <line num="16" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="method" name="index" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="29" type="method" name="show" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="34" type="method" name="create" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <metrics loc="40" ncloc="40" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="12" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers\ApiAuth">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Controllers/ApiAuth/LoginController.php">
+        <class name="App\Http\Controllers\ApiAuth\LoginController" namespace="App\Http\Controllers\ApiAuth">
+          <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="7" coveredelements="7"/>
+        </class>
+        <line num="14" type="method" name="authenticate" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <metrics loc="28" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="7" coveredelements="7"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Controllers/ApiAuth/RegisterController.php">
+        <class name="App\Http\Controllers\ApiAuth\RegisterController" namespace="App\Http\Controllers\ApiAuth">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+        </class>
+        <line num="14" type="method" name="register" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="27" type="method" name="create" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <metrics loc="35" ncloc="35" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Controllers/Controller.php">
+        <class name="App\Http\Controllers\Controller" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Kernel.php">
+        <class name="App\Http\Kernel" namespace="App\Http">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="62" ncloc="41" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Middleware">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Middleware/EncryptCookies.php">
+        <class name="App\Http\Middleware\EncryptCookies" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Middleware/RedirectIfAuthenticated.php">
+        <class name="App\Http\Middleware\RedirectIfAuthenticated" namespace="App\Http\Middleware">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="18" type="method" name="handle" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <metrics loc="26" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Middleware/TrimStrings.php">
+        <class name="App\Http\Middleware\TrimStrings" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="18" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Middleware/TrustProxies.php">
+        <class name="App\Http\Middleware\TrustProxies" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="23" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Http/Middleware/VerifyCsrfToken.php">
+        <class name="App\Http\Middleware\VerifyCsrfToken" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Providers/AppServiceProvider.php">
+        <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="14" type="method" name="boot" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="17" type="stmt" count="16"/>
+        <line num="24" type="method" name="register" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="27" type="stmt" count="16"/>
+        <metrics loc="28" ncloc="14" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Providers/AuthServiceProvider.php">
+        <class name="App\Providers\AuthServiceProvider" namespace="App\Providers">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="26" type="stmt" count="16"/>
+        <line num="29" type="stmt" count="16"/>
+        <metrics loc="30" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Providers/BroadcastServiceProvider.php">
+        <class name="App\Providers\BroadcastServiceProvider" namespace="App\Providers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="boot" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <metrics loc="21" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Providers/EloquentObserverServiceProvider.php">
+        <class name="App\Providers\EloquentObserverServiceProvider" namespace="App\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="14" type="method" name="boot" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="16" type="stmt" count="16"/>
+        <line num="17" type="stmt" count="16"/>
+        <line num="19" type="stmt" count="16"/>
+        <line num="20" type="stmt" count="16"/>
+        <line num="22" type="stmt" count="16"/>
+        <line num="29" type="method" name="register" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="32" type="stmt" count="16"/>
+        <metrics loc="33" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Providers/EventServiceProvider.php">
+        <class name="App\Providers\EventServiceProvider" namespace="App\Providers">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="26" type="method" name="boot" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="28" type="stmt" count="16"/>
+        <line num="31" type="stmt" count="16"/>
+        <metrics loc="32" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Providers/RepositoryServiceProvider.php">
+        <class name="App\Providers\RepositoryServiceProvider" namespace="App\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        </class>
+        <line num="14" type="method" name="boot" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="17" type="stmt" count="16"/>
+        <line num="24" type="method" name="register" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="26" type="stmt" count="16"/>
+        <line num="27" type="stmt" count="16"/>
+        <line num="28" type="stmt" count="16"/>
+        <line num="30" type="stmt" count="16"/>
+        <line num="31" type="stmt" count="16"/>
+        <line num="32" type="stmt" count="16"/>
+        <line num="35" type="stmt" count="16"/>
+        <metrics loc="36" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+      </file>
+      <file name="/home/developer/Programmings/Laravel/laranews/app/Providers/RouteServiceProvider.php">
+        <class name="App\Providers\RouteServiceProvider" namespace="App\Providers">
+          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
+        </class>
+        <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="28" type="stmt" count="16"/>
+        <line num="29" type="stmt" count="16"/>
+        <line num="36" type="method" name="map" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="38" type="stmt" count="16"/>
+        <line num="40" type="stmt" count="16"/>
+        <line num="43" type="stmt" count="16"/>
+        <line num="52" type="method" name="mapWebRoutes" visibility="protected" complexity="1" crap="1" count="16"/>
+        <line num="54" type="stmt" count="16"/>
+        <line num="55" type="stmt" count="16"/>
+        <line num="56" type="stmt" count="16"/>
+        <line num="57" type="stmt" count="16"/>
+        <line num="66" type="method" name="mapApiRoutes" visibility="protected" complexity="1" crap="1" count="16"/>
+        <line num="68" type="stmt" count="16"/>
+        <line num="69" type="stmt" count="16"/>
+        <line num="70" type="stmt" count="16"/>
+        <line num="71" type="stmt" count="16"/>
+        <line num="72" type="stmt" count="16"/>
+        <metrics loc="73" ncloc="38" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
+      </file>
+    </package>
+    <metrics files="41" loc="1351" ncloc="954" classes="33" methods="66" coveredmethods="29" conditionals="0" coveredconditionals="0" statements="162" coveredstatements="80" elements="228" coveredelements="109"/>
+  </project>
+</coverage>
