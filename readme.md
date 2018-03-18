@@ -24,7 +24,11 @@ $ cp .env .env.example # fill db config
 $ php artisan app:install
 $ php artisan serve # open in your browser http://localhost:8000
 $ vendor/bin/phpunit -testdox # for testing
+
 ```
+
+## Docs
+[Postman Documenter](https://documenter.getpostman.com/view/1851109/laranews/RVnZgdT8)
 
 ## Meta
 
