@@ -28,7 +28,7 @@ class NewsPolicyTest extends TestCase
             'creator_id'=> $owner->id,
         ]);
 
-        $this->assertFalse($user->can('delete', $news));
+        $this->assertFalse($user->can('update', $news));
     }
 
     public function testUserCanDeleteOwnNews()
